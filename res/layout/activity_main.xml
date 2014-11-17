@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.takecare.MainActivity" >
+
+    <ImageView
+        android:id="@+id/food"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="140dp"
+        android:onClick="onFoodView"
+        android:src="@drawable/food" />
+
+    <ImageView
+        android:id="@+id/vaccine"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/food"
+        android:layout_marginRight="40dp"
+        android:onClick="onVaccineView"
+        android:src="@drawable/vaccine" />
+
+    <ImageView
+        android:id="@+id/disease"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/food"
+        android:layout_below="@+id/food"
+        android:layout_marginTop="70dp"
+        android:onClick="onDiseaseView"
+        android:src="@drawable/disease" />
+
+    <ImageView
+        android:id="@+id/music"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/vaccine"
+        android:layout_alignTop="@+id/disease"
+        android:onClick="onMusicView"
+        android:src="@drawable/music" />
+
+</RelativeLayout>
