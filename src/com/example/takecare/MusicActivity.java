@@ -1,16 +1,32 @@
 package com.example.takecare;
 
+
+
+
 import android.app.Activity;
+import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.ImageView;
 
 public class MusicActivity extends Activity {
+	ImageView imgPlay,imgPause,music ;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_music);
+		music = (ImageView)findViewById(R.id.musicClick);
+		music.setOnClickListener(new OnClickListener(){
+			public void onClick (View v){
+				Intent intent = new Intent(getApplicationContext(),ClipMusic.class);
+				startActivity(intent);
+			}
+		});
 	}
 
 	@Override
