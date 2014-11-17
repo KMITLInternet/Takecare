@@ -33,21 +33,24 @@ public final class R {
         public static final int vaccine=0x7f020008;
     }
     public static final class id {
-        public static final int action_settings=0x7f09000e;
-        public static final int disease=0x7f090002;
-        public static final int diseaseButton=0x7f090006;
-        public static final int food=0x7f090000;
-        public static final int foodButton=0x7f090004;
-        public static final int imageView2=0x7f090009;
-        public static final int music=0x7f090003;
-        public static final int musicButton=0x7f090007;
-        public static final int musicClick=0x7f090008;
-        public static final int pauseeBtn=0x7f09000d;
-        public static final int playBtnn=0x7f09000c;
-        public static final int textView1=0x7f09000a;
-        public static final int textView2=0x7f09000b;
-        public static final int vaccine=0x7f090001;
-        public static final int vaccineButton=0x7f090005;
+        public static final int action_settings=0x7f090011;
+        public static final int button1=0x7f090000;
+        public static final int disease=0x7f090005;
+        public static final int diseaseButton=0x7f090009;
+        public static final int editText1=0x7f090001;
+        public static final int food=0x7f090003;
+        public static final int foodButton=0x7f090007;
+        public static final int imageView2=0x7f09000d;
+        public static final int listView1=0x7f090002;
+        public static final int music=0x7f090006;
+        public static final int musicButton=0x7f09000a;
+        public static final int musicClick=0x7f09000b;
+        public static final int pauseeBtn=0x7f090010;
+        public static final int playBtnn=0x7f09000f;
+        public static final int textView1=0x7f09000c;
+        public static final int textView2=0x7f09000e;
+        public static final int vaccine=0x7f090004;
+        public static final int vaccineButton=0x7f090008;
     }
     public static final class layout {
         public static final int activity_disease=0x7f030000;
