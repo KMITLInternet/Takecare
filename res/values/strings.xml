@@ -9,5 +9,6 @@
     <string name="title_activity_vacine">VacineActivity</string>
     <string name="title_activity_music">MusicActivity</string>
     <string name="title_activity_disease">DiseaseActivity</string>
+    <string name="title_activity_disease__detail">Disease_Detail</string>
 
 </resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="disease_array">
+        <item>โรคหัด</item>
+        <item>โรคหัดเยอรมัน</item>
+        <item>โรคปอดอักเสบ</item>
+        <item>โรคลมพิษ</item>
+        <item>หูชั้นกลางอักเสบเฉียบพลัน </item>
+        <item>โรคไอกรน</item>
+        <item>ภาวะตัวเหลือง</item>
+    </string-array>
+</resources>

@@ -38,7 +38,12 @@
             android:name=".DiseaseActivity"
             android:label="@string/title_activity_disease" >
         </activity>
-        <activity android:name="ClipMusic"></activity>
+        <activity android:name=".ClipMusic" >
+        </activity>
+        <activity
+            android:name=".Disease_Detail"
+            android:label="@string/title_activity_disease__detail" >
+        </activity>
     </application>
 
 </manifest>

@@ -8,6 +8,9 @@
 package com.example.takecare;
 
 public final class R {
+    public static final class array {
+        public static final int disease_array=0x7f060000;
+    }
     public static final class attr {
     }
     public static final class dimen {
@@ -24,61 +27,64 @@ public final class R {
     public static final class drawable {
         public static final int disease=0x7f020000;
         public static final int food=0x7f020001;
-        public static final int ic_launcher=0x7f020002;
-        public static final int music=0x7f020003;
-        public static final int pause=0x7f020004;
-        public static final int pause_icon=0x7f020005;
-        public static final int play=0x7f020006;
-        public static final int play_icon=0x7f020007;
-        public static final int vaccine=0x7f020008;
+        public static final int head=0x7f020002;
+        public static final int ic_launcher=0x7f020003;
+        public static final int music=0x7f020004;
+        public static final int pause=0x7f020005;
+        public static final int pause_icon=0x7f020006;
+        public static final int play=0x7f020007;
+        public static final int play_icon=0x7f020008;
+        public static final int vaccine=0x7f020009;
     }
     public static final class id {
-        public static final int action_settings=0x7f090011;
-        public static final int button1=0x7f090000;
-        public static final int disease=0x7f090005;
-        public static final int diseaseButton=0x7f090009;
-        public static final int editText1=0x7f090001;
-        public static final int food=0x7f090003;
-        public static final int foodButton=0x7f090007;
-        public static final int imageView2=0x7f09000d;
-        public static final int listView1=0x7f090002;
-        public static final int music=0x7f090006;
-        public static final int musicButton=0x7f09000a;
-        public static final int musicClick=0x7f09000b;
-        public static final int pauseeBtn=0x7f090010;
-        public static final int playBtnn=0x7f09000f;
-        public static final int textView1=0x7f09000c;
-        public static final int textView2=0x7f09000e;
-        public static final int vaccine=0x7f090004;
-        public static final int vaccineButton=0x7f090008;
+        public static final int action_settings=0x7f0a0010;
+        public static final int disease=0x7f0a0004;
+        public static final int diseaseButton=0x7f0a0008;
+        public static final int disease_name=0x7f0a0001;
+        public static final int food=0x7f0a0002;
+        public static final int foodButton=0x7f0a0006;
+        public static final int imageView2=0x7f0a000c;
+        public static final int label=0x7f0a0000;
+        public static final int music=0x7f0a0005;
+        public static final int musicButton=0x7f0a0009;
+        public static final int musicClick=0x7f0a000a;
+        public static final int pauseeBtn=0x7f0a000f;
+        public static final int playBtnn=0x7f0a000e;
+        public static final int textView1=0x7f0a000b;
+        public static final int textView2=0x7f0a000d;
+        public static final int vaccine=0x7f0a0003;
+        public static final int vaccineButton=0x7f0a0007;
     }
     public static final class layout {
         public static final int activity_disease=0x7f030000;
-        public static final int activity_food=0x7f030001;
-        public static final int activity_main=0x7f030002;
-        public static final int activity_music=0x7f030003;
-        public static final int activity_vacine=0x7f030004;
-        public static final int clipmusic=0x7f030005;
+        public static final int activity_disease__detail=0x7f030001;
+        public static final int activity_food=0x7f030002;
+        public static final int activity_main=0x7f030003;
+        public static final int activity_music=0x7f030004;
+        public static final int activity_vacine=0x7f030005;
+        public static final int clipmusic=0x7f030006;
     }
     public static final class menu {
-        public static final int disease=0x7f080000;
-        public static final int food=0x7f080001;
-        public static final int main=0x7f080002;
-        public static final int music=0x7f080003;
-        public static final int vacine=0x7f080004;
+        public static final int disease=0x7f090000;
+        public static final int disease__detail=0x7f090001;
+        public static final int food=0x7f090002;
+        public static final int main=0x7f090003;
+        public static final int music=0x7f090004;
+        public static final int vacine=0x7f090005;
     }
     public static final class raw {
         public static final int pleng=0x7f040000;
     }
     public static final class string {
-        public static final int action_settings=0x7f060002;
-        public static final int app_name=0x7f060000;
-        public static final int hello_Food=0x7f060004;
-        public static final int hello_world=0x7f060001;
-        public static final int title_activity_disease=0x7f060007;
-        public static final int title_activity_food=0x7f060003;
-        public static final int title_activity_music=0x7f060006;
-        public static final int title_activity_vacine=0x7f060005;
+        public static final int action_settings=0x7f070002;
+        public static final int app_name=0x7f070000;
+        public static final int hello_Food=0x7f070004;
+        public static final int hello_world=0x7f070001;
+        public static final int title_activity_disease=0x7f070007;
+        public static final int title_activity_disease__detail=0x7f070008;
+        public static final int title_activity_food=0x7f070003;
+        public static final int title_activity_music=0x7f070006;
+        public static final int title_activity_vacine=0x7f070005;
     }
     public static final class style {
         /** 
@@ -102,10 +108,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f070000;
+        public static final int AppBaseTheme=0x7f080000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f070001;
+        public static final int AppTheme=0x7f080001;
     }
 }
