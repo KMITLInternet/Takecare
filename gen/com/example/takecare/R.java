@@ -9,7 +9,9 @@ package com.example.takecare;
 
 public final class R {
     public static final class array {
+        public static final int cause_array=0x7f060001;
         public static final int disease_array=0x7f060000;
+        public static final int symptom_array=0x7f060002;
     }
     public static final class attr {
     }
@@ -37,23 +39,24 @@ public final class R {
         public static final int vaccine=0x7f020009;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a0010;
-        public static final int disease=0x7f0a0004;
-        public static final int diseaseButton=0x7f0a0008;
+        public static final int Cause=0x7f0a0003;
+        public static final int Symptom=0x7f0a0006;
+        public static final int TextView01=0x7f0a0004;
+        public static final int TextView02=0x7f0a0005;
+        public static final int action_settings=0x7f0a0011;
+        public static final int disease=0x7f0a0009;
         public static final int disease_name=0x7f0a0001;
-        public static final int food=0x7f0a0002;
-        public static final int foodButton=0x7f0a0006;
-        public static final int imageView2=0x7f0a000c;
+        public static final int food=0x7f0a0007;
+        public static final int imageView1=0x7f0a0002;
+        public static final int imageView2=0x7f0a000d;
         public static final int label=0x7f0a0000;
-        public static final int music=0x7f0a0005;
-        public static final int musicButton=0x7f0a0009;
-        public static final int musicClick=0x7f0a000a;
-        public static final int pauseeBtn=0x7f0a000f;
-        public static final int playBtnn=0x7f0a000e;
-        public static final int textView1=0x7f0a000b;
-        public static final int textView2=0x7f0a000d;
-        public static final int vaccine=0x7f0a0003;
-        public static final int vaccineButton=0x7f0a0007;
+        public static final int music=0x7f0a000a;
+        public static final int musicClick=0x7f0a000b;
+        public static final int pauseeBtn=0x7f0a0010;
+        public static final int playBtnn=0x7f0a000f;
+        public static final int textView1=0x7f0a000c;
+        public static final int textView2=0x7f0a000e;
+        public static final int vaccine=0x7f0a0008;
     }
     public static final class layout {
         public static final int activity_disease=0x7f030000;

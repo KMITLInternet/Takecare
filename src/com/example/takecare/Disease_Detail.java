@@ -2,10 +2,12 @@ package com.example.takecare;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Disease_Detail extends Activity {
 
@@ -13,13 +15,26 @@ public class Disease_Detail extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_disease__detail);
-		TextView txtProduct = (TextView) findViewById(R.id.disease_name);
+		
+		Resources res = getResources();
+		String[] disease_array = res.getStringArray(R.array.disease_array);
+		String[] cause_array = res.getStringArray(R.array.cause_array);
+		String[] symptom_array = res.getStringArray(R.array.symptom_array);
         
-        Intent i = getIntent();
+		Intent intent = getIntent();
         // getting attached intent data
-        String disease = i.getStringExtra("disease");
+        String position = intent.getStringExtra("position");
+        int pos = Integer.parseInt(position);
         // displaying selected product name
-        txtProduct.setText(disease);
+        
+        TextView txtDisease_name = (TextView) findViewById(R.id.disease_name);
+        txtDisease_name.setText(disease_array[pos]);
+        
+        TextView txtCause = (TextView) findViewById(R.id.Cause);
+        txtCause.setText(cause_array[pos]);
+        
+        TextView txtSymptom = (TextView) findViewById(R.id.Symptom);
+        txtSymptom.setText(symptom_array[pos]);
 	}
 
 	@Override

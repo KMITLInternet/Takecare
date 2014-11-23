@@ -23,17 +23,20 @@ public class DiseaseActivity extends ListActivity {
 		String[] disease_array = res.getStringArray(R.array.disease_array);
 		this.setListAdapter(new ArrayAdapter<String>(this, R.layout.activity_disease, R.id.label, disease_array));
 		ListView lv = getListView();
+		
 		lv.setOnItemClickListener(new OnItemClickListener() {
 	          public void onItemClick(AdapterView<?> parent, View view,
 	              int position, long id) {
 	               
 	              // selected item 
 	              String disease = ((TextView) view).getText().toString();
-	               
+	              
 	              // Launching new Activity on selecting single List Item
 	              Intent i = new Intent(getApplicationContext(), Disease_Detail.class);
 	              // sending data to new activity
-	              i.putExtra("disease", disease);
+	              
+	              String pos = Integer.toString(position); 
+	              i.putExtra("position", pos);
 	              startActivity(i);
 	             
 	          }
